@@ -1,5 +1,5 @@
-import React from "react";
 import "../css/HomePage.css";
+import ojigi from "../assets/figure_ojigi.png";
 
 export default function HomePage() {
   return (
@@ -7,7 +7,7 @@ export default function HomePage() {
       <div className="content">
         <header className="title">HomePage</header>
         <p>準備中</p>
-        <img src="src/assets/figure_ojigi.png" alt="Ojigi" />
+        <img src={ojigi} alt="Ojigi" />
       </div>
     </>
   );
