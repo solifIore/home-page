@@ -1,8 +1,39 @@
-.title{
-  color: #FFF;
-  font-size: 50px;
+.header {
+  margin-top: 0;
+  height: 27vh;
+  transform: scale(-1, 1);
+  background-image: url("../assets/white_plant01.png");
+  background-position: 100% 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-p{
-  font-size: 3.2em;
+.title {
+  font-family: "Caveat", cursive;
+  margin: 0 auto;
+  transform: scale(-1, 1);
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 50px;
+  font-size: 3.5em;
+  color: #666666;
+  font-weight: 100;
+}
+
+.header-nav {
+  transform: scale(-1, 1);
+  /* background-color: #fff; */
+}
+
+.header-ul {
+  display: flex;
+}
+
+.header-list {
+  font-family: "Caveat", cursive;
+  color: #666666;
+  list-style: none;
+  padding-top: 25px;
+  margin-left: 35px;
+  font-size: 2.5em;
 }
