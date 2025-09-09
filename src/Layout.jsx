@@ -1,4 +1,4 @@
-import { Outlet, Route } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import { ROUTES } from "./const";
 import Button from "./components/Button";
 import "./css/Layout.css";
@@ -30,6 +30,17 @@ export default function Layout() {
       <main>
         <Outlet />
       </main>
+      <footer className="footer">
+        <a
+          href="https://github.com/solifIore"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="GitHub"
+          className="github"
+        >
+          github
+        </a>
+      </footer>
     </>
   );
 }
