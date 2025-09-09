@@ -1,11 +1,12 @@
+import Marquee from "react-fast-marquee";
 import "../css/HomePage.css";
-import ojigi from "../assets/figure_ojigi.png";
 export default function HomePage() {
   return (
     <>
       <div className="content">
-        <p>準備中</p>
-        <img src={ojigi} alt="Ojigi" />
+        <Marquee className="home-title">
+          Welcome to Soliflore's homepage!
+        </Marquee>
       </div>
     </>
   );

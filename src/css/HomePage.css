@@ -8,6 +8,18 @@
   background-size: cover;
 }
 
+.home-title {
+  font-family: "Caveat", cursive;
+  margin: 200px auto;
+  transform: scale(-1, 1);
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 50px;
+  font-size: 3.5em;
+  color: #666666;
+  font-weight: 100;
+}
+
 .title {
   font-family: "Caveat", cursive;
   margin: 0 auto;
@@ -26,6 +38,7 @@
 }
 
 .header-ul {
+  margin: 0%;
   display: flex;
 }
 
